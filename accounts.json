@@ -1,0 +1,159 @@
+[
+  {
+    "id": "ACC1001",
+    "name": "Test User",
+    "balance": 5450.0,
+    "account_type": "Savings",
+    "pin": "1234",
+    "created_at": "2026-04-22 03:55:09",
+    "transactions": [
+      {
+        "transaction_id": "BE849DD9",
+        "account_id": "ACC1001",
+        "transaction_type": "Deposit",
+        "amount": 1000.0,
+        "description": "Test deposit",
+        "status": "Completed",
+        "timestamp": "2026-04-22 03:55:09",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "DA2CA9F2",
+        "account_id": "ACC1001",
+        "transaction_type": "Withdraw",
+        "amount": 500.0,
+        "description": "Test withdrawal",
+        "status": "Completed",
+        "timestamp": "2026-04-22 03:55:09",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "301A8962",
+        "account_id": "ACC1001",
+        "transaction_type": "Withdraw",
+        "amount": 50.0,
+        "description": "",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:08:20",
+        "fraud_flag": false
+      }
+    ],
+    "is_active": true,
+    "risk_score": 0
+  },
+  {
+    "id": "ACC1002",
+    "name": "saad ali",
+    "balance": 300.0,
+    "account_type": "Savings",
+    "pin": "4668",
+    "created_at": "2026-04-25 00:06:03",
+    "transactions": [
+      {
+        "transaction_id": "494694DF",
+        "account_id": "ACC1002",
+        "transaction_type": "Deposit",
+        "amount": 100.0,
+        "description": "saad ali",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:07:12",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "C3AFACA3",
+        "account_id": "ACC1002",
+        "transaction_type": "Transfer In",
+        "amount": 100.0,
+        "description": "From ACC1003: ",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:41:44",
+        "fraud_flag": false
+      }
+    ],
+    "is_active": true,
+    "risk_score": 0
+  },
+  {
+    "id": "ACC1003",
+    "name": "saad ali",
+    "balance": 1410.0,
+    "account_type": "Savings",
+    "pin": "2222",
+    "created_at": "2026-04-25 00:21:24",
+    "transactions": [
+      {
+        "transaction_id": "7BB9F63E",
+        "account_id": "ACC1003",
+        "transaction_type": "Deposit",
+        "amount": 320.0,
+        "description": "saad ali",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:39:11",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "A3A429AA",
+        "account_id": "ACC1003",
+        "transaction_type": "Deposit",
+        "amount": 320.0,
+        "description": "saad ali",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:39:18",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "B76EC819",
+        "account_id": "ACC1003",
+        "transaction_type": "Deposit",
+        "amount": 320.0,
+        "description": "saad ali",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:39:20",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "04586A75",
+        "account_id": "ACC1003",
+        "transaction_type": "Deposit",
+        "amount": 320.0,
+        "description": "saad ali",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:39:21",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "24FDC3C1",
+        "account_id": "ACC1003",
+        "transaction_type": "Deposit",
+        "amount": 130.0,
+        "description": "saad ali",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:40:49",
+        "fraud_flag": false
+      },
+      {
+        "transaction_id": "E2CBB9CF",
+        "account_id": "ACC1003",
+        "transaction_type": "Transfer Out",
+        "amount": 100.0,
+        "description": "To ACC1002: ",
+        "status": "Completed",
+        "timestamp": "2026-04-25 00:41:44",
+        "fraud_flag": false
+      }
+    ],
+    "is_active": true,
+    "risk_score": 100
+  },
+  {
+    "id": "ACC1004",
+    "name": "saad alii",
+    "balance": 260.0,
+    "account_type": "Savings",
+    "pin": "2122",
+    "created_at": "2026-04-25 00:22:29",
+    "transactions": [],
+    "is_active": true,
+    "risk_score": 0
+  }
+]
